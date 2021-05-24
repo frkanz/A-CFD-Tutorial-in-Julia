@@ -18,28 +18,28 @@ $$f''' + ½ f f'' = 0$$
 
 Boundary Conditions:
 
-$$f(0) = 0$$
-$$f'(0) = 0$$
-$$f'(∞) = 1$$
+f(0) = 0
+f'(0) = 0
+f'(∞) = 1
 
 #### **Solution Method:**
 
 Let's assume:
 
-$$p = f(η)$$		
-$$h = f'(η)$$ 
+p = f(η)		
+h = f'(η)
 		
 Then, we obtain two ODEs equations and boundary conditions
 ODEs:
 
-$$h'' + p h' = 0$$
-$$p' - h = 0$$
+h'' + p h' = 0
+p' - h = 0
 
 BCs:  
 
-$$p(0) = 0$$
-$$h(0) = 0$$
-$$h(∞) = 1$$
+p(0) = 0
+h(0) = 0
+h(∞) = 1
 
 The equations given above are solved using Thomas algorithm.
 
