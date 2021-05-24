@@ -66,7 +66,9 @@ The solution vector is ploted and compared with results from Schlichting's Bound
 Feel free to ask questions!
 
 *Furkan Oz*  
-*Kursat Kara*  
-
 [foz@okstate.edu](foz@okstate.edu)  
+  
+*Kursat Kara*  
 [kursat.kara@okstate.edu](kursat.kara@okstate.edu)  
+
+
