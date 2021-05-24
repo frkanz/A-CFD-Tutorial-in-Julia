@@ -43,6 +43,8 @@ h(∞) = 1
 
 The equations given above are solved using Thomas algorithm.
 
+![alt text](https://github.com/frkanz/A-CFD-Tutorial-in-Julia/main/001-Blasius_Flow/blasiusprofile.jpg?raw=true)
+
 Feel free to ask questions!
 
 *Furkan Oz*  
