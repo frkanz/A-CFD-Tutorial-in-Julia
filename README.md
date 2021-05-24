@@ -44,7 +44,7 @@ h(∞) = 1
 The equations given above are solved using Thomas algorithm. The core algorithm is:
 
 A = [ 2/Δη² + p[i]/(2 * Δη) for i =1 : N]  
-B = [ -4/Δη² for i=1 : N]  
+B = [-4/Δη² for i=1 : N]  
 C = [ 2/Δη² - p[i]/(2 * Δη) for i =1 : N]  
 D = [ 0 for i=1 : N]  
 
