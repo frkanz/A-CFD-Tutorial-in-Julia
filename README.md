@@ -43,19 +43,19 @@ h(∞) = 1
 
 The equations given above are solved using Thomas algorithm. 
 
-A = [ 2/Dh2 + p[i ]/(2*Dh) for i =1: N]
-B = [ -4/Dh2 for i=1: N]
-C = [ 2/Dh2 - p[i ]/(2*Dh) for i =1: N]
-D = [ 0 for i =1:N]
+A = [ 2/Δη² + p[i]/(2*Δη) for i =1:N]  
+B = [ -4/Δη² for i=1:N]  
+C = [ 2/Δη² - p[i]/(2*Δη) for i =1:N]  
+D = [ 0 for i =1:N]  
 
-for i=2:N -1
-G[i] = - ( C[i]*G[i -1] + D[i] )/(B[i] + C[i] * H[i -1])
-H[i] = - A[i] /(B[i] + C[i] * H[i -1])
-end
+for i=2:N-1  
+G[i] = - ( C[i]*G[i-1] + D[i] )/(B[i] + C[i] * H[i-1])  
+H[i] = - A[i] /(B[i] + C[i] * H[i-1])  
+end  
 
-for i=N -1: -1:2
-h[i] = G[i] + H[i] * h[i +1]
-end
+for i=N-1:-1:2  
+h[i] = G[i] + H[i] * h[i+1]  
+end  
 
 The solution vector is ploted and compared with results from Schlichting's Boundary-layer theory book.
 
