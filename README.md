@@ -41,19 +41,19 @@ p(0) = 0
 h(0) = 0  
 h(∞) = 1  
 
-The equations given above are solved using Thomas algorithm. 
+The equations given above are solved using Thomas algorithm. The core algorithm is:
 
-A = [ 2/Δη² + p[i]/(2*Δη) for i =1:N]  
-B = [ -4/Δη² for i=1:N]  
-C = [ 2/Δη² - p[i]/(2*Δη) for i =1:N]  
-D = [ 0 for i =1:N]  
+A = [ 2/Δη² + p[i]/(2 * Δη) for i =1 : N]  
+B = [ -4/Δη² for i=1 : N]  
+C = [ 2/Δη² - p[i]/(2 * Δη) for i =1 : N]  
+D = [ 0 for i=1 : N]  
 
-for i=2:N-1  
-G[i] = - ( C[i]*G[i-1] + D[i] )/(B[i] + C[i] * H[i-1])  
+for i=2 : N-1  
+G[i] = - ( C[i] * G[i-1] + D[i] )/(B[i] + C[i] * H[i-1])  
 H[i] = - A[i] /(B[i] + C[i] * H[i-1])  
 end  
 
-for i=N-1:-1:2  
+for i=N-1 : -1 : 2  
 h[i] = G[i] + H[i] * h[i+1]  
 end  
 
