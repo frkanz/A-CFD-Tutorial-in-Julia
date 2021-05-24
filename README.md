@@ -43,7 +43,7 @@ h(∞) = 1
 
 The equations given above are solved using Thomas algorithm.
 
-![plot](./A-CFD-Tutorial-in-Julia/tree/main/001-Blasius_Flow/BlasiusProfile.png)  
+![plot](./001-Blasius_Flow/BlasiusProfile.png)  
 
 Feel free to ask questions!
 
