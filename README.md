@@ -14,7 +14,7 @@ Julia setup files can be downloaded from their website (https://julialang.org/do
 ## **Example Case: Blasius Equation**
 Flow over an infinite flat plate can be represented using the ordinary differential equation (ODE) below:
 
-$$f''' + ½ f f'' = 0$$
+f''' + 0.5 f f'' = 0  
 
 Boundary Conditions:
 
