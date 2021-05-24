@@ -44,7 +44,7 @@ h(∞) = 1
 The equations given above are solved using Thomas algorithm.
 
 ![plot](./001-Blasius_Flow/BlasiusProfile.png)
-<img src="./001-Blasius_Flow/BlasiusProfile.png" width="100" height="100">
+<img src="./001-Blasius_Flow/BlasiusProfile.png" width="50%" height="50%">
 
 Feel free to ask questions!
 
