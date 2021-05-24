@@ -11,7 +11,7 @@ Oz, F.; Kara, K. A CFD Tutorial in Julia: Introduction to Laminar Boundary-Layer
 
 Julia setup files can be downloaded from their website (https://julialang.org/downloads/). The website also includes instructions on how to install Julia on Windows, Linux, and mac operating systems. It is common to use external packages for Julia. In order to do that, Pkg, which is Julia's built-in package manager, can be used. Once Julia is opened, Pkg can be activated with the "]" button in Windows. In Linux, calling "julia" in the terminal will open it. After that "Pkg.add("Pluto")" will trigger the setup process for that package. In here, we used Pluto as an example because, in GitHub, our codes are developed in the Pluto environment. After Pluto is installed. Pluto can be run with "Pluto.run()". This command will open a new tab in the browser which you can run your Julia codes. After that, the "using Pluto" line must be placed to the top of the file. For "Plots" package, the commands will be "Pkg.add("Plots")" and "using Plots". Since the Plots package does not have a GUI, there is not a command called "Plots.run()".
 
-#### **Example Case: Blasius Equation**
+## **Example Case: Blasius Equation**
 Flow over an infinite flat plate can be represented using the ordinary differential equation (ODE) below:
 
 $$f''' + ½ f f'' = 0$$
