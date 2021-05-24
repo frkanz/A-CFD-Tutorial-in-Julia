@@ -43,7 +43,7 @@ h(∞) = 1
 
 The equations given above are solved using Thomas algorithm.
 
-![plot](./001-Blasius_Flow/BlasiusProfile.png)  
+![plot](./001-Blasius_Flow/BlasiusProfile.png =250x250)  
 
 Feel free to ask questions!
 
