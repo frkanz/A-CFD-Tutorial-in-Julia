@@ -18,9 +18,9 @@ $$f''' + ½ f f'' = 0$$
 
 Boundary Conditions:
 
-f(0) = 0\newline
-f'(0) = 0
-f'(∞) = 1
+f(0) = 0  
+f'(0) = 0  
+f'(∞) = 1  
 
 #### **Solution Method:**
 
