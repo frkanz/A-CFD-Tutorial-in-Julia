@@ -68,7 +68,7 @@ Feel free to ask questions!
 *Furkan Oz*  
 [foz@okstate.edu](foz@okstate.edu)  
   
-*Dr. Kursat Kara*  
+*Kursat Kara*  
 [kursat.kara@okstate.edu](kursat.kara@okstate.edu)  
 
 
