@@ -41,9 +41,11 @@ p(0) = 0
 h(0) = 0  
 h(∞) = 1  
 
-The equations given above are solved using Thomas algorithm.
+The equations given above are solved using Thomas algorithm. The solution vector is ploted and compared with Schlichting.
 
 <img src="./001-Blasius_Flow/BlasiusProfile.png" width="50%" height="50%">
+
+## **Please read the full paper for further details.**
 
 Feel free to ask questions!
 
