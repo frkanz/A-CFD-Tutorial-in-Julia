@@ -41,7 +41,7 @@ p(0) = 0
 h(0) = 0  
 h(∞) = 1  
 
-The equations given above are solved using Thomas algorithm. The solution vector is ploted and compared with Schlichting.
+The equations given above are solved using Thomas algorithm. The solution vector is ploted and compared with results from Schlichting's Boundary-layer theory book.
 
 <img src="./001-Blasius_Flow/BlasiusProfile.png" width="50%" height="50%">
 
