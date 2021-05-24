@@ -26,27 +26,27 @@ f'(∞) = 1
 
 Let's assume:
 
-p = f(η)		
-h = f'(η)
+p = f(η)  
+h = f'(η)  
 		
 Then, we obtain two ODEs equations and boundary conditions
 ODEs:
 
-h'' + p h' = 0
-p' - h = 0
+h'' + p h' = 0  
+p' - h = 0  
 
 BCs:  
 
-p(0) = 0
-h(0) = 0
-h(∞) = 1
+p(0) = 0  
+h(0) = 0  
+h(∞) = 1  
 
 The equations given above are solved using Thomas algorithm.
 
 Feel free to ask questions!
 
-*Furkan Oz*
-*Kursat Kara*
+*Furkan Oz*  
+*Kursat Kara*  
 
-[foz@okstate.edu](foz@okstate.edu)
-[kursat.kara@okstate.edu](kursat.kara@okstate.edu)
+[foz@okstate.edu](foz@okstate.edu)  
+[kursat.kara@okstate.edu](kursat.kara@okstate.edu)  
